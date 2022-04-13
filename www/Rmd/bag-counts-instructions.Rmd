@@ -1,0 +1,39 @@
+---
+output: html_document
+---
+
+<i class="fas fa-info-circle"></i><span class='prompt-message'><u>Underscored italics</u>: worksheets in [Home Delivery sheet](https://docs.google.com/spreadsheets/d/1S1Qqa5ZCmZT-RqMCXamhfyK3zKa4y_PO5pAS6ziYQoE/edit#gid=1180402449)</span>
+
+##### Step 1 Check and update [Home Delivery sheet](https://docs.google.com/spreadsheets/d/1S1Qqa5ZCmZT-RqMCXamhfyK3zKa4y_PO5pAS6ziYQoE/edit#gid=1180402449)
+
+* **<u>Current Bag Count</u>:** update with the past month's counts
+* **<u>Bags Needed</u>:** 'charge' column should only contain rows with 'NA'. Any customer listed with the word 'charge' in the charge column should be charged and deleted from this sheet.
+
+
+##### Step 2 Click **"Reload Bag Counts Data"** button to reload the data
+
+* Wait at least 30 seconds before clicking the button
+
+##### Step 3 Check the tabs in the app
+
+* **Check Bag Counts:** Make sure they match the updated <u>Current Bag Counts</u>
+* **Already Charged?:** The table should be empty. If not, go back to Step 1 and check <u>Bags Needed</u>
+* **Check Members:** If any lines appear, likely the name listed in <u>Current Bag Counts</u> does not match the one on file in Farmigo. Correct the name in <u>Current Bag Counts</u> tab to match the name in Farmigo
+
+<i class="fas fa-info-circle"></i><span class='prompt-message'>Reload as in Step 2 if the corrected data still persists in the first three tabs</span>
+
+##### Step 4 Download the new Bag Sum and Bags Needed tables
+
+* Paste them into the corresponding tabs in the Home Delivery spreadsheetd, delete or overwrite the previous data in those tabs
+
+
+##### Step 5 Email and charge the customers in Bags Needed
+
+* Change total_bags in <u>Bag Sum</u> to 0 after they are charged, then move their records from <u>Bags Needed</u> to <u>Bags Charged</u>
+* Leave the rows in <u>Bags Needed</u> corresponding to customers who were only emailed, not charged
+
+##### Step 6 Check the last three tabs of the app and make the necessary adjustments
+
+* Some customers have paid a deposit for bags early on. Use this process to reduce the number of outstanding deposits: [Bag Deposits Paid Spreadsheet](https://docs.google.com/spreadsheets/d/1JDFcLfW6MTj0QSi9aua-dKYORc2m718PU-9hD-VUxgo/edit#gid=0)
+* See last 2 columns for instructions and details
+

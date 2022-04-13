@@ -1,0 +1,21 @@
+---
+output: html_document
+---
+
+#### How to use this App
+
+1. Update the [all members tab in Special Order Feed](https://docs.google.com/spreadsheets/d/1WIijF4CsRumAiOl50OMJUH6GM6ZKUiArhxjLiOiT9Lk/edit#gid=570461607)
+2. Use the menus below to segment customers by pickup site & schedule.
+3. Choose from the list of species to ensure opt-outs are not assigned. 'Other species 1' represents species with no opt out preferences.
+4. Another menu will appear after choosing the first species.
+5. Any customers not covered by the selections will remain 'unassigned'. Customers' main share orders via GetHookedTest overrides any assignment made here.
+6. Toggle the final drowpdown to change the calculation of total weight assigned for each species.
+7. Check the tables to the right for amounts assigned, counts by share size, all assigned and unassigned rows, and possible customer errors in the form.
+
+**Tips:**
+* Update either [Species Options](https://docs.google.com/spreadsheets/d/1-8f7wh3ebdb7KpcCc__VfqHoKCkL0VoIiiruBCzckXw/edit#gid=1819169532) or [Share Size](https://docs.google.com/spreadsheets/d/1-8f7wh3ebdb7KpcCc__VfqHoKCkL0VoIiiruBCzckXw/edit#gid=633942957) document to add new species to the drop-down menu.
+* The <strong style='color:#d32f2f;'>F</strong> sign at the top-right corner of some species indicates that the app is using fillet/harbinger share sizes to calculate total weight. Update [Share Size](https://docs.google.com/spreadsheets/d/1-8f7wh3ebdb7KpcCc__VfqHoKCkL0VoIiiruBCzckXw/edit#gid=633942957) document if this shouldn't be the case for certain species.
+* If the total weights/counts do not look right, check the floating box for share sizes and update the [Share Size](https://docs.google.com/spreadsheets/d/1-8f7wh3ebdb7KpcCc__VfqHoKCkL0VoIiiruBCzckXw/edit#gid=633942957) document. 
+* Check the **Unmatched Pickup Sites** tab for pickup sites that are left unassigned. Update [Reference Keys - pickup_sites](https://docs.google.com/spreadsheets/d/12uKbv9IXcIXMIFGZNHUMgjlAb8i1zbIPFYzUrtDQXRk/edit#gid=0) spreadsheet if needed. For home delivery sites, please make sure that `pickup_site_labels` and `pickup_site_form` columns are matched with `route_name` column in [all_members](https://docs.google.com/spreadsheets/d/1WIijF4CsRumAiOl50OMJUH6GM6ZKUiArhxjLiOiT9Lk/edit#gid=570461607).
+
+<br/>

@@ -1,0 +1,80 @@
+---
+output: pdf_document
+params:
+  df_list: "df_list"
+  type: "Kitchen"
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \usepackage{booktabs}
+- \usepackage{sectsty} \sectionfont{\centering \emph}
+- \usepackage{tabularx}
+- \usepackage{ctable}
+- \usepackage{multirow}
+- \usepackage{longtable}
+- \renewcommand{\arraystretch}{.9}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(knitr.table.format = "latex")
+```
+
+
+
+```{r results = "asis", comment = "", echo = FALSE, message= FALSE, warning= FALSE}
+df_list <- params$df_list
+for(i in seq_along(df_list)) {
+  cat("#", names(df_list)[i], "\n")
+    
+  if(params$type == "Site") {
+    cat("\\begin{center}\\textbf{Get Hooked Deliveries}\\end{center}")
+    cat("\n")
+    cat("\n- Hand sanitizer is provided, please use before opening coolers")
+    cat("\n")
+    cat("\n- Dry goods are in zip-cloth bag next to coolers.")
+    cat("\n")
+    cat("\n- Check your name off the list.")
+    cat("\n")
+    cat("\n- Keep all seafood covered in ice & close cooler lid fully.")
+    cat("\n\n")
+    cat("\n\\begin{center}\\textit{New members take a tote bag with your name on it}\\end{center}")
+    cat("\n")
+  }
+  
+  cat("\\vspace*{3mm}")
+  cat(paste0("\\qquad \\textbf{Total No. of Items: ", nrow(df_list[[i]]), "}"))
+  cat("\\vspace*{-1mm}")
+
+  print({
+    df <- df_list[[i]][2:5] %>%
+      mutate(Item = str_extract_all(Item, "[\\u0000-\\u007F]+")) %>%
+      rowwise() %>%
+      mutate(Item = paste(Item, collapse = ""))%>%
+      group_by(Name, Item, Size, Type) %>% mutate(index = 1:n()) %>% ungroup %>%
+      mutate(Type_new = sapply(1:n(), function(i) paste0(rep(".", index[i]-1), Type[i])))%>%
+      group_by(Name) %>%
+      mutate(Name_new = ifelse(row_number() > 1, "", Name),
+             HLine = (row_number() == n())) %>% ungroup() %>%
+      mutate(Name = Name_new, Type = Type_new) %>%
+      select(-Name_new, -Type_new, -index)
+    
+    df %>% select(-HLine) %>%
+      kableExtra::kable(format.args = list(decimal.mark = '.', big.mark = ","),
+                      format = "latex", booktabs = TRUE, longtable = TRUE,
+                      align = "lllr", linesep = "")%>%
+      kableExtra::kable_styling(latex_options = c('hold_position', "repeat_header"),
+                                font_size = 9.5, full_width = FALSE)%>%
+      kableExtra::row_spec(0, bold = TRUE, hline_after = FALSE) %>%
+      kableExtra::row_spec(which(!df$HLine), extra_latex_after = "\\cmidrule{2-4}", hline_after = FALSE) %>%
+      kableExtra::row_spec(which(df$HLine)[-sum(df$HLine)],  extra_latex_after = "\\cmidrule{1-4}", hline_after = FALSE) %>%
+      kableExtra::column_spec(column = 1, width = "1.6in") %>%
+      kableExtra::column_spec(column = 2, width = "2.2in") %>%
+      kableExtra::column_spec(column = 3, width = "0.9in") %>%
+      kableExtra::column_spec(column = 4, width = "0.86in")
+  })
+  
+  cat("\\newpage")
+  cat('\n\n<!-- -->\n\n')
+}
+```

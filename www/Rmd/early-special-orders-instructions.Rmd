@@ -1,0 +1,16 @@
+---
+output: html_document
+---
+
+#### Instructions
+
+
+<i class="fas fa-info-circle"></i><span class='prompt-message'>Check the `source` column in each tab to see which spreadsheet(s) the orders are from. </span>
+
+| source | Google Sheet |
+| :----: | :----------- |
+| Store | [Shopify Orders - Incoming Orders](https://docs.google.com/spreadsheets/d/1SIOuuBBOXQ9-oCWbN-Hv9bHirxZH9S1RrJSGiaphK1Y/edit#gid=1184397264) | 
+| Saved | [Special Order Feed - Saved Orders](https://docs.google.com/spreadsheets/d/1WIijF4CsRumAiOl50OMJUH6GM6ZKUiArhxjLiOiT9Lk/edit#gid=1611643887) | 
+| Standing | [Standing Orders](https://docs.google.com/spreadsheets/d/1_nIfoGe_-K4UxGcFmeJTq33S2l3EGXiinO6Fw0JRpx8/edit#gid=0) | 
+| Referral | [Referral Shares](https://docs.google.com/spreadsheets/d/1HbzWmgYvx0659hwONIiJ_a_D63sObaHKTiuKWrXcvwE/edit#gid=973159798) | 
+| Flashsales | [Active Deliveries - Flashsales](https://docs.google.com/spreadsheets/d/1M7JKNNb-OUs8pFe6mMPC5BZqG09aLOlRcRG9HpReyoY/edit#gid=0) |

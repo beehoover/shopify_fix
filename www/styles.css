@@ -1,0 +1,408 @@
+/*  
+	General --------------------------------------------------
+*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+}
+
+th {
+	font-size: 1.05em;
+}
+
+h2 {
+	margin-top: .2em;
+}
+
+hr {
+	border: 0;
+	height: .9px;
+	background-image: linear-gradient(
+		to right, 
+		rgba(0, 0, 0, 0.05), 
+		rgba(0, 0, 0, 0.35), 
+		rgba(0, 0, 0, 0.05)
+	);
+}
+
+code {
+	color: #1a6a72;
+    background-color: #daefed;
+	font-size: .9em;
+}
+
+/*
+	Navbar -----------------------------------------------------
+*/
+/* Get Hooked Logo */
+
+.logo img {
+    height: 100%;
+    display: block;
+    padding-top: .6em;
+    padding-bottom: .25em;
+    margin: auto;
+}
+
+.image_full{
+   display:block !important;
+}
+
+.image_mobile{
+  display:none !important;
+}
+
+@media (max-width: 767px){
+  .image_full{
+   display:none !important;
+  }
+
+  .image_mobile{
+   display:block !important;
+  }
+}
+
+/* Restart & Sign Out Buttons */
+
+#sign_out{
+	margin: .5em .25em;
+	margin-right: 2em;
+	width: 100px;
+}
+
+#restart{
+	background-color: #1a6a72;
+	margin: .5em .25em;
+	width: 100px;
+}
+
+#restart:hover{
+	background-color: #539fa7;
+}
+
+
+/*  
+	Sidebar --------------------------------------------------
+*/
+.well {
+	max-height: 80vh;
+	overflow-y: auto;
+}
+
+.well a:not(.btn) {
+	color: #1976d2;
+}
+
+.well ul > li > span {
+	display: grid
+} 
+
+.well ol, .well ul {
+	padding-left: 1em !important;
+}
+
+.well li {
+	margin-top: .2em;
+}
+
+.well u {
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* Table */
+.well table {
+  padding: 0;
+  margin: 1.5em auto 1em auto;
+  font-size: .95em
+}
+
+.well table tr {
+    border-top: 1px solid #cccccc;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0; 
+}
+
+.well table tr:nth-child(2n) {
+    background-color: #f1f1f1; 
+}
+
+
+.well table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    text-align: center;
+    margin: 0;
+    padding: 6px 13px; 
+	background: #e3e3e3;
+}
+
+.well table tr td {
+	border: 1px solid #cccccc;
+    margin: 0;
+    padding: 6px 13px; 
+}
+
+
+.well h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #333;
+}
+
+/* Location Checkbox */
+.shiny-options-group {
+	font-size: .97em;
+}
+
+.checkbox-sites {
+	margin: -.5em 0em 1em 0em;
+	background-image: linear-gradient(
+		to right, 
+		rgba(0, 0, 0, 0.05), 
+		rgba(0, 0, 0, 0.35), 
+		rgba(0, 0, 0, 0.05)
+	);
+	background-size: 100% .5px;
+	background-position:bottom 0 left 0,bottom 5px left 0;
+	background-repeat:no-repeat;
+}
+
+.checkbox-sites div {
+	padding: 0;
+}
+
+.checkbox-sites + div {
+	margin: -1em 0em 0em 0em;
+	padding: .3em 0 .5em .2em;
+}
+
+.checkbox-sites .form-group, .checkbox-sites .checkbox{
+	margin: 0;
+}
+
+.checkbox-sites strong{
+	vertical-align: text-top;
+	float: left;
+}
+
+/* Bag Counts app */
+#shiny-tab-Tab_Bag_Counts .well h5{
+	font-size: 1.2em;
+	margin: 1em auto;
+}
+
+/*
+	Tabset Panels -----------------------------------------------------
+*/
+
+.nav-tabs>li>a{
+	color: #456283
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	color: #46afb2;
+}
+
+/*  
+	icons --------------------------------------------------
+*/
+.btn i {
+	margin-right: .3em;
+}
+
+.btn:not(.btn-primary, .pull-right) i {
+	font-size: .92em;
+}
+
+i.fa-info-circle {
+	color: #1976d2;
+	display: table-cell;
+	padding-right: .3em;
+	font-size: .9em;
+}
+
+i.fa-info-circle + span {
+	display: table-cell;
+}
+
+
+i.fa-link {
+	color: #1976d2;
+	padding-right: .1em;
+	font-size: .85em;
+}
+
+h1 i.fa-link, h2 i.fa-link, h3 i.fa-link, h4 i.fa-link, h5 i.fa-link {
+	font-size: .7em;
+	padding-right: .2em;
+}
+
+
+/*
+	Datatables -----------------------------------------------------
+*/
+
+.dataTables_wrapper:not(#share-size-fixedPanel .dataTables_wrapper) {
+	margin-top: 1em;
+}
+
+.datatable-checklist tr td:first-child:empty {
+	border-top: 0px;
+}
+
+/* Print Buttons in datatables */
+.buttons-print, .buttons-csv{
+	font-size: .9em !important;
+}
+
+.buttons-print i, .buttons-csv i{
+	margin-right: .5em;
+}
+
+/* Print */
+@media print {
+    html, body {
+        height: 99%;    
+    }
+}
+
+/* Fillet superscript (Main Shares/Species Assingment) */
+.sup-fillet {
+	color: #d32f2f; 
+	font-weight:bold;
+	font-family: monospace;
+	margin-left: .2em;
+}
+
+
+/*  
+	Buttons --------------------------------------------------
+*/
+.btn-default {
+    background-color: #374850;
+    color: white;
+	border-color: #bbb;
+	margin-bottom: .5em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.btn-default:hover {
+	background-color: #4c636e;
+    color: white;
+}
+
+.btn-default:focus {
+	background-color: #374850;
+    color: white;
+}
+
+.well .btn-default:not(.btn-primary, .btn-file) {
+	width: 100%; 
+}
+
+/* Buttons in fileInput Widget */
+.btn-file {
+	margin-bottom: 0;
+}
+
+input.form-control {
+	border: 1px solid #bbb;
+}
+
+.shiny-file-input-progress {
+	margin-bottom: .4em;
+}
+
+/* grey buttons */
+.btn-grey:hover, .btn-file:hover {
+	background: #eee;
+	border: 1px solid #bbb;
+	color: #111;
+}
+
+.btn-grey, .btn-file,
+.btn-grey:focus, .btn-file:focus {
+	background: #e0e0e0;
+	border: 1px solid #bbb;
+	color: #111;
+}
+
+/* Data Reloading Buttons (Checklists/Bag Counts) */
+.btn-reload {
+	background-color: #5a718e;
+	float: right;
+	margin-top: -3em;
+	width: 204px;
+}
+
+.btn-reload:hover {
+	background-color: #6d86a6;
+}
+
+.btn-not-sidebar {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/* Clear Species Selection (Main Shares/Species Assignment) */
+.btn-clear-species {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	background-color: #954858;
+}
+
+.btn-clear-species:hover{
+	background-color: #b66676;
+}
+
+
+/* 
+	Main Shares/Species Assignment: Floating Window --------------------------------------
+*/
+
+#share-size-fixedPanel {
+	display: inline-table; 
+	padding: 0em 1em 1em 1em; 
+	border-radius: 5px;
+    background: white; 
+	box-shadow: 0 3px 10px rgb(0 0 0 / 70%); 
+	z-index: 1100;
+}
+
+#share-size-fixedPanel h5 {
+	background: #374850;
+	padding: 1em 1em .8em 1em; 
+	margin: 0 -14px;
+	border-radius: 5px 5px 0 0; 
+	color: white;
+}
+
+/* 
+	Warning Messages --------------------------------------
+*/
+span.warning-message, .warning-message span{
+	color: red; 
+	margin-top: -.5em;
+	font-family: system-ui;
+	line-height: 1.5em;
+	font-size: .9em; 
+	display: block;
+}
+
+.prompt-message {
+	font-family: system-ui;
+	color: #1976d2;
+	line-height: 1.5em;
+	font-size: .9em;
+	margin-top: -.3em;
+	padding-bottom: .5em;
+}
+
+.prompt-message a{
+	display: inline;
+}
+
+
+

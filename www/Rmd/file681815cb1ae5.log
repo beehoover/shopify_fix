@@ -1,0 +1,712 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.5)  27 NOV 2021 16:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**C:/Users/me/AppData/Local/Temp/RtmpCyNqnw/file681815cb1ae5.tex
+(c:/Users/me/AppData/Local/Temp/RtmpCyNqnw/file681815cb1ae5.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (c:/Users/me/AppData/Roaming/TinyTeX/texmf-di
+st/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.st
+y
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.st
+y
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+For additional information on amsmath, use the `?' option.
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen139
+)) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count187
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count188
+\leftroot@=\count189
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count190
+\DOTSCASE@=\count191
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
+\dotsspace@=\muskip16
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks17
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks18
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.s
+ty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.d
+ef
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcm
+ds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr
+.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys
+.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefi
+nekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape
+.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmac
+ro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.s
+ty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen148
+\Hy@linkcounter=\count199
+\Hy@pagecounter=\count266
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-lan
+gpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.s
+ty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count267
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count268
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen149
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintca
+lc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count269
+\Field@Width=\dimen150
+\Fld@charsize=\dimen151
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count270
+\c@Item=\count271
+\c@Hfootnote=\count272
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.st
+y
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count273
+\c@bookmark@seq@number=\count274
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunf
+ilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniqu
+ecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip52
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 39.
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count275
+\Gm@cntv=\count276
+\c@Gm@tempcnt=\count277
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
+\Gm@dimlist=\toks24
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/grffile/grffile.sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
+\@cmidla=\count278
+\@cmidlb=\count279
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
+\@thisruleclass=\count280
+\@lastruleclass=\count281
+\@thisrulewidth=\dimen174
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen175
+\ar@mcellbox=\box49
+\extrarowheight=\dimen176
+\NC@list=\toks25
+\extratabsurround=\skip62
+\backup@length=\skip63
+\ar@cellbox=\box50
+)
+\TX@col@width=\dimen177
+\TX@old@table=\dimen178
+\TX@old@col=\dimen179
+\TX@target=\dimen180
+\TX@delta=\dimen181
+\TX@cols=\count282
+\TX@ftn=\toks26
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ctable/ctable.sty
+Package: ctable 2015/10/17 v1.31 ctable package for flexible typesetting of tab
+le and figure floats using key/value directives
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count283
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.te
+x
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+)
+\XKV@depth=\count284
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count285
+\rotFPtop=\skip64
+\rotFPbot=\skip65
+\rot@float@box=\box51
+\rot@mess@toks=\toks29
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/transparent/transpare
+nt.sty
+Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
+
+)
+\@CTframesep=\dimen182
+\@dfltCTframesep=\dimen183
+\@CTframerule=\dimen184
+\@dfltCTframerule=\dimen185
+\@CTwidth=\dimen186
+\@dfltCTwidth=\dimen187
+\@CTcaptionskip=\dimen188
+\@dfltCTcaptionskip=\dimen189
+\@CTmaxwidth=\dimen190
+\@dfltCTmaxwidth=\dimen191
+\@CTmincapwidth=\dimen192
+\@dfltCTmincapwidth=\dimen193
+\@CTfooterwidth=\dimen194
+\@dfltCTfooterwidth=\dimen195
+\@CTw=\dimen196
+\@CTfloatwidth=\dimen197
+\@CToldsep=\dimen198
+\@CToldrule=\dimen199
+\CT@t=\box52
+\@CTcurftwidth=\dimen256
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
+\multirow@colwidth=\skip66
+\multirow@cntb=\count286
+\multirow@dima=\skip67
+\bigstrutjot=\dimen257
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count287
+\LTcapwidth=\dimen258
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@cols=\count288
+\LT@rows=\count289
+\c@LT@tables=\count290
+\c@LT@chunks=\count291
+\LT@p@ftn=\toks30
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen259
+\WF@size=\dimen260
+\c@WF@wrappedlines=\count292
+\WF@box=\box57
+\WF@everypar=\toks31
+Package: wrapfig 2003/01/31  v 3.6
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count293
+\float@exts=\toks32
+\float@box=\box58
+\@float@everytoks=\toks33
+\@floatcapt=\box59
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks34
+\minrowclearance=\skip72
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape.s
+ty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box60
+\sift@deathcycles=\count294
+\@vwid@loff=\dimen261
+\@vwid@roff=\dimen262
+)
+\c@taburow=\count295
+\tabu@nbcols=\count296
+\tabu@cnt=\count297
+\tabu@Xcol=\count298
+\tabu@alloc=\count299
+\tabu@nested=\count300
+\tabu@target=\dimen263
+\tabu@spreadtarget=\dimen264
+\tabu@naturalX=\dimen265
+\tabucolX=\dimen266
+\tabu@Xsum=\dimen267
+\extrarowdepth=\dimen268
+\abovetabulinesep=\dimen269
+\belowtabulinesep=\dimen270
+\tabustrutrule=\dimen271
+\tabu@thebody=\toks35
+\tabu@footnotes=\toks36
+\tabu@box=\box61
+\tabu@arstrutbox=\box62
+\tabu@hleads=\box63
+\tabu@vleads=\box64
+\tabu@cellskip=\skip73
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttable/threep
+arttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box65
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttablex/three
+parttablex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces
+.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip74
+) (c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box66
+\UL@hyphenbox=\box67
+\UL@skip=\skip75
+\UL@hook=\toks37
+\UL@height=\dimen272
+\UL@pe=\count301
+\UL@pixel=\dimen273
+\ULC@box=\box68
+Package: ulem 2019/11/18
+\ULdepth=\dimen274
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen275
+\c@nlinenum=\count302
+\TeXr@lab=\toks38
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-p
+dftex.def
+File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count303
+\l__pdf_internal_box=\box69
+) (./file681815cb1ae5.aux)
+\openout1 = `file681815cb1ae5.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-
+sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 96.
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/gett
+itlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count304
+)
+LaTeX Info: Redefining \ref on input line 96.
+LaTeX Info: Redefining \pageref on input line 96.
+LaTeX Info: Redefining \nameref on input line 96.
+(./file681815cb1ae5.out) (./file681815cb1ae5.out)
+\@outlinefile=\write3
+\openout3 = `file681815cb1ae5.out'.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1{c:/Users/me/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex
+.map}
+
+] (./file681815cb1ae5.aux)
+Package rerunfilecheck Info: File `file681815cb1ae5.out' has not changed.
+(rerunfilecheck)             Checksum: E1EA4E68622BCED0E520A5546B27D0CC;224.
+ ) 
+Here is how much of TeX's memory you used:
+ 12467 strings out of 480984
+ 180816 string characters out of 5906892
+ 502536 words of memory out of 5000000
+ 29421 multiletter control sequences out of 15000+600000
+ 433062 words of font info for 37 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 71i,11n,74p,318b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
+<c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pf
+b><c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10
+.pfb><c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr1
+0.pfb><c:/Users/me/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr
+o10.pfb>
+Output written on file681815cb1ae5.pdf (1 page, 95741 bytes).
+PDF statistics:
+ 37 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+
